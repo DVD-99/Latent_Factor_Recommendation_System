@@ -1,4 +1,4 @@
-# Latent Factor Recommendation Systems
+# Latent Factor Recommendation System
 A Latent Factor Recommendation system that we can use to recommend movies to users.
 It is a simple Implementation of Stochastic Gradient Descent algorithm to build a Latent Factor Recommendation system. Using PySpark would be a good idea, as the data is going to be huge, it would be easy to process the data in parallel across a cluster.
 ```ratings.csv``` is the matrix R. Each entry is a movie id, user id, and a rating that is an integer between 1 and 5. It has around 609 users and 9485 movies. As you can see, it is a small dataset I have used NumPy.
